@@ -56,7 +56,7 @@ Fetches the current status, assignee, and priority of a given Zendesk ticket.
   "ticket_id": 123456
 }
 ```
-
+![creating ticket using postman](docs/getting_ticket_status.png)
 **Response (Postman)**:
 
 ```json
@@ -102,7 +102,7 @@ Lists recent tickets with an optional `limit` parameter (default is 5).
 ### ✅ 4. `add_comment_to_ticket`
 
 Adds a comment to an existing ticket. Can be public or internal.
-
+![adding the comment on specific ticket using postman](docs/adding_comment_on_ticket.png)
 **Request**:
 
 ```json
@@ -114,6 +114,7 @@ Adds a comment to an existing ticket. Can be public or internal.
 ```
 
 **Response (Postman)**:
+![adding the comment on ticket Response displayed in Zendesk](docs/response_from_zendesk_after_addingcomment.png)
 
 ```json
 {
