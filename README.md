@@ -24,7 +24,7 @@ All tools are built with **MCP.2 protocol** and compatible with AI orchestration
 ### ✅ 1. `create_ticket`
 
 Creates a new ticket using the user's email, subject, and description.
-![creating ticket using postman](creating_ticket.png)
+![creating ticket using postman](docs/creating_ticket.png)
 **Request**:
 
 ```json
@@ -36,7 +36,7 @@ Creates a new ticket using the user's email, subject, and description.
 ```
 
 **Response (Postman)**:
-![created Response displayed in Zendesk](response_from_zendesk_after_creating_ticket.png)
+![created Response displayed in Zendesk](docs/response_from_zendesk_after_creating_ticket.png)
 ```json
 {
   "ticket_id": 123456,
